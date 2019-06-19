@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "config.h"
 
 int  p, r;
-char a[5000], f[5000], b, o, *s=f;
+char a[TAPE_LEN], f[TAPE_LEN], b, o, *s=f;
 
 void interpret(char *c)
 {
